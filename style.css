@@ -1,0 +1,345 @@
+#main-div{
+    width:1000px;
+    height:1850px;
+    background-color:lightskyblue;
+    border-radius: 30px;
+    box-shadow: 4px 4px 7px lawngreen;
+    border: 1px solid black;
+}
+
+#heading{
+    width: 950px;
+    height: 60px;
+    background-color:darkseagreen;
+    border-radius: 10px;
+    align-items: center;
+    position:relative;
+    top: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    box-shadow: 5px 4px 7px lightslategrey;  
+    border: 1px solid mediumpurple;
+}
+
+a{
+    font-size: 20px;
+    font-family:sans-serif;
+    color: chartreuse;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: darkgreen;
+}
+
+.hide{
+    color:darkmagenta;
+    position: relative;
+    top: 30px;
+    right: 90px;
+    border-radius: 10px;
+    border:none;
+    background-color: aqua;
+    box-shadow: 2px 2px 3px blanchedalmond;
+}
+
+.show{
+    color:darkmagenta;
+    position: relative;
+    top:30px;
+    border-radius: 10px;
+    border:none;
+    background-color: aqua;
+    box-shadow: 2px 2px 3px blanchedalmond;
+}
+
+#fade-div{
+    width:950px;
+    height:110px;
+    background-color:lightpink;
+    border-radius:20px ;
+    border: 1px solid black;
+    position: relative;
+    top: 70px;
+    box-shadow: 4px 5px 7px rebeccapurple;
+}
+
+#fade-btn{
+    border-radius: 10px;
+    border:none;
+    background-color: bisque;
+    box-shadow: 2px 2px 3px coral;
+}
+
+#slide{
+    width: 950px;
+    height: 40px;
+    background-color:lightgreen;
+    position: relative;
+    top:90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px teal;
+}
+
+.stop{
+    border-radius: 10px;
+    background-color:aquamarine;
+    box-shadow: 2px 2px 3px khaki;
+    border: none;
+   
+}
+
+#slide-div{
+    width: 950px;
+    height: 130px;
+    background-color:lightgreen;
+    position: relative;
+    top: 90px;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px lightcyan;
+}
+
+#ani-btn{
+    position: relative;
+    top: 110px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    box-shadow:2px 2px 3px indigo;
+}
+
+#ani-div{
+    width: 950px;
+    height:200px;
+    background-color:aquamarine;
+    position: relative;
+    top: 110px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px olivedrab;
+}
+
+#hide{
+    box-shadow: 1px 1px 2px green;
+    border-radius: 10px;
+    border: none;
+    background-color: darkkhaki;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    right: 840px;
+    top:40px;
+}
+
+.stop{
+    position: relative;
+    top: 90px;
+    
+}
+
+#hide{
+    position: relative;
+    top: 110px;
+
+}
+
+h3{
+    position: relative;
+    top: 10px;
+    color: crimson;
+}
+
+.chaining-div{
+    position: relative;
+    top: 120px;
+    color:mediumvioletred;
+    background-color:bisque;
+    width: 950px;
+    height: 110px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 6px salmon;
+}
+
+.chaining{
+    position: relative;
+    top: 120px;
+    box-shadow: 2px 2px 3px fuchsia;
+    border-radius: 10px;
+    border: none;
+}
+
+#get-div{
+    width: 950px;
+    height: 100px;
+    position:relative;
+    top: 130px;
+    background-color:burlywood;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px navajowhite;
+}
+
+
+#text-btn{
+    position: relative;
+    top: 30px;
+    background-color:darkgray;
+    border: none;
+    border-radius: 10px;
+    box-shadow:2px 2px 3px coral;
+}
+
+#html-btn{
+    position: relative;
+    top: 30px;
+    background-color:darkgray;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px coral
+}
+
+#example{
+    position: relative;
+    top: 25px;
+    color:slateblue;
+}
+
+#set-div{
+    width: 950px;
+    height: 150px;
+    background-color: aqua;
+    position: relative;
+    top: 150px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px dodgerblue;
+}
+
+#btn1, #btn2, #btn3{
+    border-radius: 10px;
+    background-color:darkseagreen;
+    border: none;
+    box-shadow: 2px 2px 3px teal;
+}
+
+#test3{
+    background-color:wheat;
+    border: none;
+}
+
+#add-div{
+    width: 950px;
+    height: 150px;
+    background-color:blanchedalmond;
+    position: relative;
+    top: 170px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px wheat;
+}
+
+#add-p{
+    position: relative;
+    top: 10px;
+}
+
+#before-btn{
+    position: relative;
+    top: 30px;
+    right: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px brown;
+    background-color:darksalmon;
+    border-radius: 10px;
+}
+
+#after-btn{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px brown;
+    background-color:darksalmon;
+    border-radius: 10px;
+}
+
+#remove{
+    position: relative;
+    top:170px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px indigo;
+}
+
+#class-div{
+    width: 950px;
+    height: 180px;
+    background-color:khaki;
+    position: relative;
+    top: 170px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rosybrown;
+}
+
+#class-btn{
+    background-color: burlywood;
+    box-shadow: 2px 2px 3px darkorange;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.h2{
+    color:blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.h3{
+    color:blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.class-p{
+    color:blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.black{
+    color: black;
+}
+
+
+.dim-div{
+    width: 950px;
+    height: 200px;
+    background-color: honeydew;
+    position: relative;
+    top: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px thistle;
+}
+
+#dim-btn{
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: darksalmon;
+    box-shadow: 2px 2px 3px grey;
+}
+
+#width{
+    position: relative;
+    top:80px ;
+}
+
+#height{
+    position: relative;
+    top:80px ;
+}
